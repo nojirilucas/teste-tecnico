@@ -88,7 +88,7 @@ function App() {
               <label className="block text-sm font-medium text-slate-300 mb-1">E-mail</label>
               <input 
                 className={`w-full bg-slate-900 border ${errors.email ? 'border-red-500' : 'border-slate-700'} rounded-lg p-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all`}
-                placeholder="email@exemplo.com"
+                placeholder="Ex: email@exemplo.com"
                 value={email} onChange={e => setEmail(e.target.value)} 
               />
               {errors.email && <p className="text-red-400 text-sm mt-1">{errors.email[0]}</p>}
