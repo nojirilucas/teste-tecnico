@@ -28,7 +28,7 @@ function App() {
     setErrors({});
     setLoading(true);
 
-    // Delay artificial de 0.5s para mostrar a animação de carregamento (luxo de UI)
+    // Delay
     await new Promise(resolve => setTimeout(resolve, 500));
 
     try {
@@ -56,7 +56,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center py-10 px-4 font-sans">
       
-      {/* Cabeçalho com Degradê no Texto */}
+      {/* Cabeçalho */}
       <div className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
           Cadastro de Devs
@@ -64,13 +64,13 @@ function App() {
         <p className="text-slate-400 mt-2 text-lg">Teste Técnico Full Stack</p>
       </div>
       
-      {/* Grid Responsivo (1 coluna no celular, 2 no PC) */}
+      {/* Grid */}
       <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
         
-        {/* Lado Esquerdo: Formulário */}
+        {/* Lado Esquerdo */}
         <div className="bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-700 h-fit">
           <h2 className="text-xl font-semibold mb-6 flex items-center gap-2">
-            🚀 Novo Usuário
+            Novo Usuário
           </h2>
           
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -115,7 +115,7 @@ function App() {
           </form>
         </div>
 
-        {/* Lado Direito: Lista */}
+        {/* Lado Direito */}
         <div className="bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-700 flex flex-col h-full min-h-[400px]">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-xl font-semibold">Membros ({users.length})</h2>
