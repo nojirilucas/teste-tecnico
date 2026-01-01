@@ -18,7 +18,7 @@ Sistema simples para cadastro e listagem de usuários.
 - **Backend:** Node.js + Express + Zod (Validação)
 - **Ferramentas:** Git, VS Code
 
-## Rodar Projeto
+## Execução do sistema
 
 O projeto é dividido em 2 partes: servidor (backend) e interface (web).
 
