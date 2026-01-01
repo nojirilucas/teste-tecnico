@@ -1,6 +1,6 @@
 # Cadastro de Usuários
 
-Sistema simples para cadastro e listagem de usuários, focando em validação de dados e feedback visual.
+Sistema simples para cadastro e listagem de usuários.
 
 ## Visualização
 
@@ -18,7 +18,7 @@ Sistema simples para cadastro e listagem de usuários, focando em validação de
 - **Backend:** Node.js + Express + Zod (Validação)
 - **Ferramentas:** Git, VS Code
 
-## Como Rodar o Projeto
+## Rodar Projeto
 
 O projeto é dividido em 2 partes: servidor (backend) e interface (web).
 
