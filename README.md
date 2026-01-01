@@ -2,17 +2,27 @@
 
 Sistema simples para cadastro e listagem de usuários, focando em validação de dados e feedback visual.
 
-Tecnologias Utilizadas
+## Visualização
+
+<div align="center">
+  <img width="440" height="279" alt="Exemplo de tela 1" src="https://github.com/user-attachments/assets/f6bc0844-f28d-4f7c-a16e-0ca1c288c241" />
+  <br/><br/>
+  <img width="1047" height="551" alt="Exemplo de tela 2" src="https://github.com/user-attachments/assets/53017666-cefc-45a7-84a7-a731a7845072" />
+  <br/><br/>
+  <img width="849" height="578" alt="Exemplo de tela 3" src="https://github.com/user-attachments/assets/561f26aa-9222-4317-9f5c-26f0ae0e899c" />
+</div>
+
+## Tecnologias Utilizadas
 
 - **Frontend:** React + TypeScript + TailwindCSS (Vite)
 - **Backend:** Node.js + Express + Zod (Validação)
 - **Ferramentas:** Git, VS Code
 
-Como Rodar o Projeto
+## Como Rodar o Projeto
 
-Projeto dividido 2: servidor (backend) e interface (web).
+O projeto é dividido em 2 partes: servidor (backend) e interface (web).
 
-1. Iniciar o Backend
+### 1. Iniciar o Backend
 Abra um terminal, entre na pasta `server` e rode:
 
 ```bash
@@ -24,12 +34,3 @@ npm install
 
 # Inicie o servidor
 npm run dev
-
-<img width="440" height="279" alt="Image" src="https://github.com/user-attachments/assets/f6bc0844-f28d-4f7c-a16e-0ca1c288c241" />
-
-
-<img width="1047" height="551" alt="Image" src="https://github.com/user-attachments/assets/53017666-cefc-45a7-84a7-a731a7845072" />
-
-
-<img width="849" height="578" alt="Image" src="https://github.com/user-attachments/assets/561f26aa-9222-4317-9f5c-26f0ae0e899c" />
-
