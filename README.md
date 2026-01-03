@@ -23,7 +23,7 @@ Sistema simples para cadastro e listagem de usuários.
 O projeto é dividido em 2 partes: servidor (backend) e interface (web).
 
 ### 1. Iniciar o Backend
-Abra um terminal, entre na pasta `server` e rode:
+Abra um terminal, entre na pasta `server` e `web` rode:
 
 ```bash
 # Entre na pasta do servidor
